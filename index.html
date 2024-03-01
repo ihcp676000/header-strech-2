@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filmbyhim Website</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: hidden;
+        }
+        header {
+            background-color: #000;
+            color: #fff;
+            padding: 10px;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+            text-align: center; /* Center align text */
+            height: auto; /* Keep the height unchanged */
+        }
+        h1 {
+            font-family: 'roquen-bold', sans-serif; /* Change font family to roquen-bold */
+            font-weight: bold;
+            text-transform: uppercase; /* Convert text to uppercase */
+            font-size: 2em; /* Initial font size */
+            animation: fadeInOut 10s infinite; /* Apply fade in and fade out animation with 10 seconds delay */
+        }
+        @keyframes fadeInOut {
+            0%, 100% {
+                opacity: 0; /* Start and end with opacity 0 */
+            }
+            50% {
+                opacity: 1; /* Midpoint with opacity 1 */
+            }
+        }
+        iframe {
+            width: 100%;
+            height: calc(100% - 40px); /* Adjust according to header height */
+            border: none;
+            margin-top: 40px; /* Adjust according to header height */
+        }
+
+        /* Responsive Font Size */
+        @media screen and (max-width: 768px) {
+            h1 {
+                font-size: 1.6em; /* Adjust font size for smaller screens */
+            }
+        }
+        @media screen and (max-width: 576px) {
+            h1 {
+                font-size: 1.2em; /* Further adjust font size for smaller screens */
+            }
+        }
+    </style>
+    <!-- Add roquen-bold font link -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=roquen-bold&display=swap">
+</head>
+<body>
+    <header>
+        <!-- Your header content goes here -->
+        <h1>Filmbyhim Website</h1>
+        <!-- You can add navigation, logos, etc. here -->
+    </header>
+    <iframe src="https://www.locofy.ai/preview/mfLrOPz4bja29%2BdGz29AJpi3ANTY8wUtZF1D3M0ZS7Zl9yHADWvkHrVFEb32JNtuAmuA3NiK1y9sAQNQIenTIa8bWLtv%2Bp%2FUFQ%3D%3D/crazy" frameborder="0"></iframe>
+</body>
+</html>
